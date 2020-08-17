@@ -1,0 +1,86 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-bar{
+    margin-bottom: -30px;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    line-height: 14px;
+    height: 400px;
+    overflow: auto;
+    display: none;
+}
+.result{
+    border: 0px solid black;
+    font-weight: 400;
+}
+.result h3{
+    font-size: 16px;
+}
+.result p{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.bottom-line{
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.img-fluid{
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 50%;
+    margin-right: 3px;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 720px) {
+    .single-result .img-fluid {
+      display: none;
+    }
+    .single-result{
+        line-height: 14px;
+    }
+    .bottom-line{
+        margin-top: 10px;
+    }
+  }
+
+.footer{
+    margin-top: 150px;
+    padding: 5px;
+}
